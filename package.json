@@ -1,0 +1,17 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "Usando TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eu",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^7.0.1",
+    "nyc": "^15.0.0"
+  }
+}
